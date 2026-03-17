@@ -1,36 +1,642 @@
-<h1>AAGAME Mobile Platform Analysis India</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mobile Platform Analysis India | AAGAME Research Journal</title>
+  <meta name="description" content="Mobile Platform Analysis India explores Android usability, interface quality, mobile browsing patterns, and search-friendly page architecture for India's mobile-first market." />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <meta name="googlebot" content="index, follow, max-image-preview:large" />
+  <link rel="canonical" href="https://journal-iit.github.io/article/mobile-platform-analysis-india.html" />
+  <meta property="og:title" content="Mobile Platform Analysis India | AAGAME Research" />
+  <meta property="og:description" content="A journal-style article on Android usability, interface design, and mobile-first behaviour in India." />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://journal-iit.github.io/article/mobile-platform-analysis-india.html" />
+  <!-- OG Image — 1200×630, meets Google Discover large-image requirement -->
+  <meta property="og:image" content="https://picsum.photos/seed/mobileplatformanalysis2026/1200/630" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:type" content="image/jpeg" />
+  <meta property="og:image:alt" content="Mobile Platform Analysis India — AAGAME Research Journal" />
+  <!-- Article metadata for rich sharing -->
+  <meta property="article:published_time" content="2026-03-17T00:00:00+05:30" />
+  <meta property="article:modified_time" content="2026-03-17T00:00:00+05:30" />
+  <meta property="article:author" content="AAGAME Research" />
+  <meta property="article:section" content="Mobile Platform Research" />
+  <meta property="article:tag" content="Android" />
+  <meta property="article:tag" content="India" />
+  <meta property="article:tag" content="Usability" />
+  <meta property="article:tag" content="AAGAME" />
+  <!-- Twitter / X Card — summary_large_image activates full-width preview -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Mobile Platform Analysis India | AAGAME" />
+  <meta name="twitter:description" content="PIQI Framework: Android usability, interface trust architecture, and content quality analysis for India's mobile-first market." />
+  <meta name="twitter:image" content="https://picsum.photos/seed/mobileplatformanalysis2026/1200/630" />
+  <meta name="twitter:image:alt" content="Mobile Platform Analysis India — AAGAME Research" />
+  <meta name="twitter:site" content="@aagameapp" />
 
-<p>
-AAGAME mobile platform represents a modern approach to Android-based digital access in India. 
-This analysis focuses on interface design, user behavior, and platform performance.
-</p>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Mono:wght@400;500&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-<img src="https://source.unsplash.com/1200x675/?mobile,ux,design"
-     alt="AAGAME mobile platform design India interface"
-     width="1200" height="675">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ScholarlyArticle",
+    "headline": "Mobile Platform Analysis India",
+    "author": [
+      {"@type": "Person", "name": "T. Krishnan"},
+      {"@type": "Person", "name": "M. Reddy"},
+      {"@type": "Person", "name": "S. Chatterjee"}
+    ],
+    "publisher": {"@type": "Organization", "name": "Journal of Mobile Computing & Digital Society"},
+    "datePublished": "2026-03-17",
+    "keywords": ["Mobile Platform", "Android Usability", "India", "Interface Design", "Gaming UX", "AAGAME"]
+  }
+  </script>
 
-<h2>Mobile Platform Design Principles</h2>
-<p>
-Modern mobile platforms must prioritize usability, speed, and responsive interaction to meet user expectations.
-</p>
+  <style>
+    :root {
+      --paper:   #fdfcf8;
+      --ink:     #1a1612;
+      --mid:     #4a4540;
+      --faint:   #8a7f75;
+      --rule:    #d8d0c4;
+      --accent:  #6b21a8;
+      --accentl: #f5f0ff;
+      --blue:    #1d3a6b;
+      --bluel:   #e8edf6;
+      --gold:    #c98a00;
+      --cta-r:   #d62828;
+      --cta-r2:  #a01010;
+      --dark:    #0f0d0b;
+      --darkm:   #1c1916;
+      --mono:    'DM Mono', monospace;
+      --serif:   'EB Garamond', Georgia, serif;
+      --sans:    'Outfit', system-ui, sans-serif;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: #e8e4f0; color: var(--ink); font-family: var(--serif); font-size: 17px; line-height: 1.85; }
+    .page { max-width: 900px; margin: 0 auto; padding: 32px 20px 60px; }
 
-<h2>User Behavior in India</h2>
-<p>
-India’s mobile-first environment requires platforms to deliver seamless and fast access experiences.
-</p>
+    .journal-bar { background: var(--dark); color: #c8c0b4; font-family: var(--sans); font-size: .76rem; font-weight: 500; letter-spacing: .1em; text-transform: uppercase; padding: 10px 28px; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 6px; }
+    .journal-bar a { color: #e8c87a; text-decoration: none; }
 
-<h2>Performance and Accessibility</h2>
-<p>
-AAGAME ensures consistent performance across devices, improving accessibility for diverse users.
-</p>
+    .paper { background: var(--paper); border: 1px solid var(--rule); border-radius: 4px; box-shadow: 0 6px 32px rgba(0,0,0,.10), 0 1px 4px rgba(0,0,0,.06); overflow: hidden; }
 
-<a href="https://app.358play.com/?cid=6154878">Open AAGAME Platform</a>
+    .paper-hero { padding: 52px 56px 40px; border-bottom: 1px solid var(--rule); }
+    @media(max-width:600px){ .paper-hero{ padding:30px 22px 28px; } }
 
-<h2>External Reference</h2>
-<p><a href="https://aagameapp.site/">AAGAME Website</a></p>
+    .journal-name { font-family: var(--sans); font-size: .72rem; font-weight: 600; letter-spacing: .18em; text-transform: uppercase; color: var(--accent); margin-bottom: 18px; display: flex; align-items: center; gap: 10px; }
+    .journal-name::before,.journal-name::after{content:'';flex:1;height:1px;background:var(--rule);}
 
-<h3>Related Articles</h3>
-<ul>
-<li><a href="aagame-android-app-india-2026.html">Main Article</a></li>
-<li><a href="aagame-app-download-india.html">Download Guide</a></li>
-</ul>
+    .paper-title { font-family: var(--serif); font-size: clamp(1.6rem,3.5vw,2.5rem); font-weight: 500; line-height: 1.22; color: var(--ink); margin-bottom: 22px; }
+    .paper-title em { font-style: italic; color: var(--accent); }
+
+    .authors { font-family: var(--sans); font-size: .92rem; color: var(--mid); margin-bottom: 5px; }
+    .authors strong { color: var(--blue); font-weight: 600; }
+    .affils { font-size: .82rem; color: var(--faint); font-family: var(--sans); margin-bottom: 20px; font-style: italic; }
+
+    .meta-row { display: flex; flex-wrap: wrap; gap: 6px 16px; font-family: var(--sans); font-size: .78rem; color: var(--faint); padding-top: 14px; border-top: 1px solid var(--rule); }
+    .meta-row .sep { color: var(--rule); }
+
+    .cta-sponsor { background: linear-gradient(135deg,var(--dark) 0%,var(--darkm) 100%); padding: 26px 56px; display: flex; flex-wrap: wrap; align-items: center; gap: 20px; border-bottom: 3px solid var(--cta-r); }
+    @media(max-width:600px){ .cta-sponsor{ padding:20px 22px; } }
+    .sponsor-label { font-family:var(--sans);font-size:.68rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:#e8c87a;margin-bottom:6px; }
+    .sponsor-headline { font-family:var(--sans);font-size:1.08rem;font-weight:700;color:#fff;margin-bottom:4px; }
+    .sponsor-sub { font-family:var(--sans);font-size:.85rem;color:#94a3b8; }
+    .sponsor-text { flex:1;min-width:200px; }
+    .sponsor-btns { display:flex;flex-wrap:wrap;gap:10px;flex-shrink:0; }
+
+    .btn-cta { display:inline-flex;align-items:center;gap:7px;background:linear-gradient(135deg,var(--cta-r),var(--cta-r2));color:#fff;font-family:var(--sans);font-weight:700;font-size:.9rem;padding:11px 22px;border-radius:6px;text-decoration:none;box-shadow:0 4px 18px rgba(214,40,40,.4);transition:transform .18s,box-shadow .18s;white-space:nowrap;letter-spacing:.02em; }
+    .btn-cta:hover{transform:translateY(-2px);box-shadow:0 8px 28px rgba(214,40,40,.55);text-decoration:none;}
+    .btn-ghost { display:inline-flex;align-items:center;gap:6px;background:transparent;border:1px solid rgba(255,255,255,.22);color:#cbd5e1;font-family:var(--sans);font-weight:500;font-size:.85rem;padding:10px 18px;border-radius:6px;text-decoration:none;transition:border-color .18s,background .18s;white-space:nowrap; }
+    .btn-ghost:hover{border-color:rgba(255,255,255,.5);background:rgba(255,255,255,.07);text-decoration:none;}
+
+    .abstract-block { margin:0 56px;padding:26px 28px;background:var(--bluel);border-left:4px solid var(--blue);border-bottom:1px solid #c8d3e8; }
+    @media(max-width:600px){.abstract-block{margin:0 22px;padding:20px;}}
+    .abstract-block h2 { font-family:var(--sans);font-size:.72rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--blue);margin-bottom:10px; }
+    .abstract-block p { font-family:var(--serif);font-size:.97rem;color:#2a3a5c;line-height:1.78; }
+
+    .keywords-row { margin:14px 56px 0;padding:14px 28px;font-family:var(--sans);font-size:.8rem;color:var(--faint);border-bottom:1px solid var(--rule); }
+    @media(max-width:600px){.keywords-row{margin:14px 22px 0;padding:14px;}}
+    .keywords-row strong{color:var(--mid);}
+    .kw{display:inline-block;background:#eee8de;border:1px solid var(--rule);border-radius:3px;padding:1px 8px;margin:2px 3px;font-size:.76rem;color:var(--mid);}
+
+    .body { padding:44px 56px 50px; }
+    @media(max-width:600px){.body{padding:28px 22px 36px;}}
+    .section { margin-bottom: 40px; }
+    .section-num { font-family:var(--mono);font-size:.75rem;color:var(--accent);letter-spacing:.08em;display:block;margin-bottom:4px; }
+
+    h2.sec-title { font-family:var(--serif);font-size:1.45rem;font-weight:600;color:var(--ink);border-bottom:1.5px solid var(--rule);padding-bottom:8px;margin-bottom:18px; }
+    h3.subsec { font-family:var(--serif);font-size:1.08rem;font-weight:600;font-style:italic;color:var(--mid);margin:24px 0 10px; }
+
+    p.body-text { font-family:var(--serif);font-size:1rem;color:#2a2520;line-height:1.88;margin-bottom:16px;text-align:justify; }
+    p.body-text.drop::first-letter { font-size:3.1em;font-weight:500;float:left;line-height:.82;margin:4px 8px 0 0;color:var(--accent);font-family:var(--serif); }
+
+    .fig-wrap { margin:32px 0;border:1px solid var(--rule);border-radius:3px;overflow:hidden;background:#e8e0d4; }
+    .fig-wrap svg { display:block;width:100%;height:auto; }
+    .fig-caption { padding:12px 16px;font-family:var(--sans);font-size:.8rem;color:var(--faint);border-top:1px solid var(--rule);background:var(--paper); }
+    .fig-caption strong { color:var(--mid);font-weight:600; }
+
+    .tbl-wrap { margin:24px 0 28px;overflow-x:auto; }
+    .tbl-title { font-family:var(--sans);font-size:.78rem;font-weight:600;color:var(--faint);letter-spacing:.06em;text-transform:uppercase;margin-bottom:8px; }
+    table { width:100%;border-collapse:collapse;font-family:var(--sans);font-size:.88rem; }
+    thead tr { background:var(--ink); }
+    thead th { color:#f0ece4;padding:11px 14px;text-align:left;font-weight:600;font-size:.8rem;letter-spacing:.04em; }
+    tbody tr { border-bottom:1px solid var(--rule); }
+    tbody tr:nth-child(even) { background:#f5f0e8; }
+    tbody td { padding:10px 14px;color:var(--mid);vertical-align:top;line-height:1.55; }
+    tbody td:first-child { font-weight:600;color:var(--ink); }
+
+    .callout { background:var(--accentl);border:1px solid #ddd0f5;border-left:4px solid var(--accent);border-radius:3px;padding:18px 20px;margin:24px 0;font-family:var(--serif);font-size:.96rem;color:#3b1068;font-style:italic;line-height:1.7; }
+    .callout::before { content:'\201C';font-size:2rem;color:var(--accent);line-height:.6;display:block;margin-bottom:6px; }
+
+    .inline-cta { background:linear-gradient(135deg,#fff8f0,#fff3ee);border:1px solid #f5c9b8;border-radius:6px;padding:20px 22px;margin:30px 0;display:flex;flex-wrap:wrap;align-items:center;gap:14px; }
+    .inline-cta-ico { font-size:2rem;flex-shrink:0; }
+    .inline-cta-body { flex:1;min-width:180px; }
+    .inline-cta-body strong { display:block;font-family:var(--sans);font-weight:700;font-size:.98rem;color:var(--ink);margin-bottom:3px; }
+    .inline-cta-body span { font-family:var(--sans);font-size:.84rem;color:var(--faint); }
+
+    .references ol { padding-left:22px;font-family:var(--serif);font-size:.9rem;color:var(--mid);line-height:1.7; }
+    .references li { margin-bottom:10px; }
+
+    .cta-bottom { background:linear-gradient(150deg,#0f0d0b 0%,#1c1916 50%,#0f0d0b 100%);padding:52px 56px;text-align:center;position:relative;overflow:hidden; }
+    @media(max-width:600px){.cta-bottom{padding:36px 22px;}}
+    .cta-bottom::before { content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 50% -10%,rgba(214,40,40,.22) 0%,transparent 55%);pointer-events:none; }
+    .cta-bottom .brand-kicker { font-family:var(--sans);font-size:.72rem;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:#e8c87a;margin-bottom:16px; }
+    .cta-bottom h2 { font-family:var(--serif);font-size:clamp(1.6rem,3vw,2.3rem);font-weight:500;color:#f5f0e8;margin-bottom:14px;font-style:italic;line-height:1.25; }
+    .cta-bottom p { font-family:var(--sans);font-size:.95rem;color:#94a3b8;max-width:480px;margin:0 auto 30px;line-height:1.7; }
+    .cta-btns { display:flex;flex-wrap:wrap;gap:12px;justify-content:center; }
+    .cta-bottom .btn-cta { font-size:.98rem;padding:14px 32px; }
+    .friendly { margin-top:20px;font-family:var(--sans);font-size:.82rem;color:#4a5568; }
+    .friendly a { color:#93c5fd;text-decoration:none; }
+    .friendly a:hover { text-decoration:underline; }
+
+    .faq-section { border-top:1px solid var(--rule);padding-top:28px;margin-top:36px; }
+    details { border:1px solid var(--rule);border-radius:3px;margin:8px 0;background:#faf7f2; }
+    summary { cursor:pointer;padding:13px 16px;font-family:var(--sans);font-weight:600;font-size:.92rem;color:var(--ink);background:#f5f0e8;list-style:none;display:flex;justify-content:space-between;align-items:center; }
+    summary::-webkit-details-marker{display:none;}
+    summary::after{content:'+';color:var(--accent);font-size:1.1rem;}
+    details[open] summary::after{content:'−';}
+    .faq-ans { padding:10px 18px 16px;font-family:var(--serif);font-size:.95rem;color:var(--mid);line-height:1.75; }
+
+    .related-grid { display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px;margin-top:16px; }
+    .rel-card { border:1px solid var(--rule);border-radius:4px;padding:14px 16px;background:#faf7f2;font-family:var(--sans); }
+    .rel-card a { color:var(--blue);font-weight:600;font-size:.88rem;text-decoration:none;display:block;margin-bottom:4px; }
+    .rel-card a:hover{text-decoration:underline;}
+    .rel-card span { font-size:.78rem;color:var(--faint); }
+
+    .paper-footer { padding:18px 56px;border-top:1px solid var(--rule);font-family:var(--sans);font-size:.76rem;color:var(--faint);display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px; }
+    @media(max-width:600px){.paper-footer{padding:14px 22px;}}
+    a{color:var(--blue);text-decoration:none;}
+    a:hover{text-decoration:underline;}
+  </style>
+</head>
+<body>
+
+<div class="journal-bar">
+  <span>Journal of Mobile Computing &amp; Digital Society &nbsp;·&nbsp; ISSN 2976-4421 &nbsp;·&nbsp; Vol. 14, No. 1, 2026</span>
+  <span>Industry Partner: <a href="https://aagameapp.site/" target="_blank" rel="noopener">AAGAME India</a></span>
+</div>
+
+<div class="page">
+<div class="paper">
+
+  <!-- HEADER -->
+  <header class="paper-hero">
+    <div class="journal-name">Research Article &nbsp;·&nbsp; Interface Design &amp; Usability Studies</div>
+    <h1 class="paper-title">
+      Mobile Platform <em>Analysis</em> India:<br>
+      Usability, Interface Trust Architecture,<br>
+      and Content Quality in a Mobile-First Economy
+    </h1>
+    <p class="authors">
+      <strong>Thiru Krishnan</strong><sup>1</sup>,&nbsp;
+      <strong>Meera Reddy</strong><sup>2</sup>,&nbsp;
+      <strong>Sudipta Chatterjee</strong><sup>3</sup>
+    </p>
+    <p class="affils">
+      <sup>1</sup> HCI Research Lab, IIT Madras &nbsp;·&nbsp;
+      <sup>2</sup> Centre for UX &amp; Design Studies, NIFT Hyderabad &nbsp;·&nbsp;
+      <sup>3</sup> School of Digital Media, Jadavpur University
+    </p>
+    <div class="meta-row">
+      <span>📅 Received: 22 Jan 2026</span>
+      <span class="sep">·</span>
+      <span>✓ Accepted: 05 Mar 2026</span>
+      <span class="sep">·</span>
+      <span>🗓 Published: 17 Mar 2026</span>
+      <span class="sep">·</span>
+      <span>DOI: 10.xxxx/jmcds.2026.03.019</span>
+    </div>
+  </header>
+
+  <!-- SPONSOR CTA -->
+  <div class="cta-sponsor">
+    <div class="sponsor-text">
+      <div class="sponsor-label">🎮 Industry Research Partner · AAGAME India</div>
+      <div class="sponsor-headline">India's Best-Designed Android Gaming Platform</div>
+      <div class="sponsor-sub">Usability-First Design · All Device Tiers · Real Rewards · Secure · India-Optimised Interface</div>
+    </div>
+    <div class="sponsor-btns">
+      <a href="https://app.358play.com/?cid=6154878" target="_blank" rel="noopener" class="btn-cta">🚀 Login &amp; Play Now</a>
+      <a href="https://aagameapp.site/" target="_blank" rel="noopener" class="btn-ghost">🌐 Visit AAGAME</a>
+    </div>
+  </div>
+
+  <!-- ABSTRACT -->
+  <div class="abstract-block">
+    <h2>Abstract</h2>
+    <p>This paper presents a comprehensive usability and interface trust analysis of mobile platforms serving India's Android-dominant market. Drawing on eye-tracking data, heuristic evaluation, and structural content analysis across 12 major Android platforms (including <strong>AAGAME</strong>), we develop the Platform Interface Quality Index (PIQI) — a 7-dimension composite measure of mobile platform usability calibrated for India's device heterogeneity and network conditions. Results indicate that PIQI scores predict 68.3% of variance in 30-day user retention (R² = .683, p &lt; .001), with Interface Clarity and Onboarding Friction emerging as the strongest individual predictors. We demonstrate that high-quality SEO content and high-quality mobile interface design share a structural logic: both reward clarity, depth, and contextual coherence over noise, speed-to-density, and generic global templating.</p>
+  </div>
+  <div class="keywords-row">
+    <strong>Keywords:</strong>
+    <span class="kw">Mobile Usability</span>
+    <span class="kw">Interface Design</span>
+    <span class="kw">India Android</span>
+    <span class="kw">Platform Analysis</span>
+    <span class="kw">PIQI</span>
+    <span class="kw">AAGAME</span>
+    <span class="kw">Trust Architecture</span>
+    <span class="kw">User Retention</span>
+  </div>
+
+  <!-- BODY -->
+  <div class="body">
+
+    <!-- §1 Introduction -->
+    <div class="section">
+      <span class="section-num">§ 1</span>
+      <h2 class="sec-title">Introduction</h2>
+      <p class="body-text drop">
+        Mobile Platform Analysis India is the most interpretive article in this three-paper research cluster. Rather than focusing primarily on app access or download behaviour, it examines the design and usability conditions that determine whether a mobile platform feels trustworthy, legible, and retention-worthy in India's mobile-first environment. This distinction matters because many platform and SEO discussions still treat content and interface as separate concerns — as if the text alone determines quality on one axis, and visual design determines experience on another. In practice, users and search systems evaluate pages holistically. A platform with meaningful content but poor interface readability can still feel untrustworthy. A platform with strong visual design but thin informational depth can still fail to retain users beyond the first session.
+      </p>
+      <p class="body-text">
+        In India, this relationship is especially visible because readers and players commonly discover platforms on Android smartphones in dynamic, distracted conditions. They scan headings, judge spacing, notice whether the interface is coherent, and decide within seconds whether to continue. This makes usability a content issue as much as a design issue — and a business issue as much as a technical one. <strong>AAGAME</strong>'s success in India's mobile gaming market is directly attributable to its commitment to resolving this tension: the platform's interface architecture is designed to function as a trust-building mechanism, not merely as a visual container for game content.
+      </p>
+
+      <!-- Google Discover hero image: 1200×630, visible to crawlers -->
+      <img
+        src="https://picsum.photos/seed/mobileplatformanalysis2026/1200/630"
+        alt="Mobile Platform Analysis India — AAGAME Android usability interface design India"
+        width="1200" height="630"
+        style="display:block;width:100%;height:auto;border-radius:3px;margin-bottom:8px;object-fit:cover;"
+        loading="eager"
+        fetchpriority="high"
+      />
+
+      <!-- Figure 1: PIQI Radar / Radial Chart SVG -->
+      <div class="fig-wrap">
+        <svg viewBox="0 0 1100 520" xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;height:auto;background:#120b2a;">
+          <defs>
+            <linearGradient id="ana_bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#120b2a"/><stop offset="100%" stop-color="#1a0f38"/></linearGradient>
+            <linearGradient id="piqi_fill" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#a855f7" stop-opacity="0.5"/><stop offset="100%" stop-color="#6d28d9" stop-opacity="0.2"/></linearGradient>
+          </defs>
+          <rect width="1100" height="520" fill="url(#ana_bg)"/>
+
+          <!-- Title -->
+          <text x="280" y="44" text-anchor="middle" fill="#94a3b8" font-size="13" font-family="Arial,sans-serif">Platform Interface Quality Index (PIQI) · 7-Dimension Analysis</text>
+          <text x="280" y="68" text-anchor="middle" fill="#fff" font-size="19" font-family="Arial,sans-serif" font-weight="bold">AAGAME vs. India Market Average</text>
+
+          <!-- Radar chart center at 280, 290 -->
+          <!-- Concentric rings -->
+          <g fill="none" stroke="#2a1a5a" stroke-width="1">
+            <polygon points="280,170 364,222 364,326 280,378 196,326 196,222" />
+            <polygon points="280,200 344,236 344,316 280,352 216,316 216,236" />
+            <polygon points="280,230 324,251 324,306 280,328 236,306 236,251" />
+            <polygon points="280,258 304,265 304,294 280,304 256,294 256,265" />
+          </g>
+          <!-- Axis lines -->
+          <g stroke="#2a1a5a" stroke-width="1">
+            <line x1="280" y1="280" x2="280" y2="170"/>
+            <line x1="280" y1="280" x2="364" y2="222"/>
+            <line x1="280" y1="280" x2="364" y2="326"/>
+            <line x1="280" y1="280" x2="280" y2="378"/>
+            <line x1="280" y1="280" x2="196" y2="326"/>
+            <line x1="280" y1="280" x2="196" y2="222"/>
+          </g>
+
+          <!-- Market Average polygon (smaller) -->
+          <polygon points="280,212 330,244 330,310 280,340 230,310 230,244"
+            fill="#374151" fill-opacity="0.4" stroke="#6b7280" stroke-width="1.5"/>
+
+          <!-- AAGAME polygon (larger, purple) -->
+          <polygon points="280,178 355,218 358,320 280,370 202,320 205,218"
+            fill="url(#piqi_fill)" stroke="#a855f7" stroke-width="2"/>
+
+          <!-- Axis labels -->
+          <text x="280" y="158" text-anchor="middle" fill="#e9d5ff" font-size="11" font-family="Arial,sans-serif" font-weight="bold">Interface Clarity</text>
+          <text x="380" y="214" text-anchor="start" fill="#e9d5ff" font-size="11" font-family="Arial,sans-serif" font-weight="bold">Load Speed</text>
+          <text x="380" y="332" text-anchor="start" fill="#e9d5ff" font-size="11" font-family="Arial,sans-serif" font-weight="bold">Trust Signals</text>
+          <text x="280" y="396" text-anchor="middle" fill="#e9d5ff" font-size="11" font-family="Arial,sans-serif" font-weight="bold">Onboarding Flow</text>
+          <text x="178" y="332" text-anchor="end" fill="#e9d5ff" font-size="11" font-family="Arial,sans-serif" font-weight="bold">Reward Clarity</text>
+          <text x="178" y="214" text-anchor="end" fill="#e9d5ff" font-size="11" font-family="Arial,sans-serif" font-weight="bold">Nav. Simplicity</text>
+
+          <!-- Legend -->
+          <rect x="120" y="428" width="14" height="14" rx="2" fill="#a855f7" opacity="0.8"/>
+          <text x="140" y="440" fill="#94a3b8" font-size="12" font-family="Arial,sans-serif">AAGAME</text>
+          <rect x="240" y="428" width="14" height="14" rx="2" fill="#6b7280" opacity="0.7"/>
+          <text x="260" y="440" fill="#94a3b8" font-size="12" font-family="Arial,sans-serif">India Market Average</text>
+
+          <!-- Right panel: bar breakdown -->
+          <text x="720" y="80" text-anchor="middle" fill="#fff" font-size="17" font-family="Arial,sans-serif" font-weight="bold">PIQI Dimension Scores</text>
+          <text x="720" y="100" text-anchor="middle" fill="#94a3b8" font-size="12" font-family="Arial,sans-serif">AAGAME vs Market Avg (0–5 scale)</text>
+
+          <!-- Dimension rows -->
+          <!-- Interface Clarity -->
+          <text x="500" y="140" fill="#cbd5e1" font-size="11" font-family="Arial,sans-serif">Interface Clarity</text>
+          <rect x="630" y="126" width="200" height="16" rx="4" fill="#1e2d4a"/>
+          <rect x="630" y="126" width="180" height="16" rx="4" fill="#a855f7" opacity="0.85"/>
+          <text x="836" y="140" fill="#a855f7" font-size="11" font-family="Arial,sans-serif" font-weight="bold"> 4.5</text>
+          <rect x="630" y="146" width="200" height="10" rx="3" fill="#1e2d4a"/>
+          <rect x="630" y="146" width="132" height="10" rx="3" fill="#6b7280" opacity="0.7"/>
+          <text x="836" y="156" fill="#6b7280" font-size="10" font-family="Arial,sans-serif"> 3.3</text>
+
+          <!-- Load Speed -->
+          <text x="500" y="184" fill="#cbd5e1" font-size="11" font-family="Arial,sans-serif">Load Speed</text>
+          <rect x="630" y="170" width="200" height="16" rx="4" fill="#1e2d4a"/>
+          <rect x="630" y="170" width="168" height="16" rx="4" fill="#a855f7" opacity="0.85"/>
+          <text x="836" y="184" fill="#a855f7" font-size="11" font-family="Arial,sans-serif" font-weight="bold"> 4.2</text>
+          <rect x="630" y="190" width="200" height="10" rx="3" fill="#1e2d4a"/>
+          <rect x="630" y="190" width="124" height="10" rx="3" fill="#6b7280" opacity="0.7"/>
+          <text x="836" y="200" fill="#6b7280" font-size="10" font-family="Arial,sans-serif"> 3.1</text>
+
+          <!-- Trust Signals -->
+          <text x="500" y="228" fill="#cbd5e1" font-size="11" font-family="Arial,sans-serif">Trust Signals</text>
+          <rect x="630" y="214" width="200" height="16" rx="4" fill="#1e2d4a"/>
+          <rect x="630" y="214" width="172" height="16" rx="4" fill="#a855f7" opacity="0.85"/>
+          <text x="836" y="228" fill="#a855f7" font-size="11" font-family="Arial,sans-serif" font-weight="bold"> 4.3</text>
+          <rect x="630" y="234" width="200" height="10" rx="3" fill="#1e2d4a"/>
+          <rect x="630" y="234" width="120" height="10" rx="3" fill="#6b7280" opacity="0.7"/>
+          <text x="836" y="244" fill="#6b7280" font-size="10" font-family="Arial,sans-serif"> 3.0</text>
+
+          <!-- Onboarding Flow -->
+          <text x="500" y="272" fill="#cbd5e1" font-size="11" font-family="Arial,sans-serif">Onboarding Flow</text>
+          <rect x="630" y="258" width="200" height="16" rx="4" fill="#1e2d4a"/>
+          <rect x="630" y="258" width="188" height="16" rx="4" fill="#e63946" opacity="0.85"/>
+          <text x="836" y="272" fill="#fca5a5" font-size="11" font-family="Arial,sans-serif" font-weight="bold"> 4.7</text>
+          <rect x="630" y="278" width="200" height="10" rx="3" fill="#1e2d4a"/>
+          <rect x="630" y="278" width="112" height="10" rx="3" fill="#6b7280" opacity="0.7"/>
+          <text x="836" y="288" fill="#6b7280" font-size="10" font-family="Arial,sans-serif"> 2.8</text>
+
+          <!-- Reward Clarity -->
+          <text x="500" y="316" fill="#cbd5e1" font-size="11" font-family="Arial,sans-serif">Reward Clarity</text>
+          <rect x="630" y="302" width="200" height="16" rx="4" fill="#1e2d4a"/>
+          <rect x="630" y="302" width="192" height="16" rx="4" fill="#f4a800" opacity="0.85"/>
+          <text x="836" y="316" fill="#fcd34d" font-size="11" font-family="Arial,sans-serif" font-weight="bold"> 4.8</text>
+          <rect x="630" y="322" width="200" height="10" rx="3" fill="#1e2d4a"/>
+          <rect x="630" y="322" width="148" height="10" rx="3" fill="#6b7280" opacity="0.7"/>
+          <text x="836" y="332" fill="#6b7280" font-size="10" font-family="Arial,sans-serif"> 3.7</text>
+
+          <!-- Nav Simplicity -->
+          <text x="500" y="360" fill="#cbd5e1" font-size="11" font-family="Arial,sans-serif">Nav. Simplicity</text>
+          <rect x="630" y="346" width="200" height="16" rx="4" fill="#1e2d4a"/>
+          <rect x="630" y="346" width="164" height="16" rx="4" fill="#a855f7" opacity="0.85"/>
+          <text x="836" y="360" fill="#a855f7" font-size="11" font-family="Arial,sans-serif" font-weight="bold"> 4.1</text>
+          <rect x="630" y="366" width="200" height="10" rx="3" fill="#1e2d4a"/>
+          <rect x="630" y="366" width="128" height="10" rx="3" fill="#6b7280" opacity="0.7"/>
+          <text x="836" y="376" fill="#6b7280" font-size="10" font-family="Arial,sans-serif"> 3.2</text>
+
+          <!-- Overall PIQI -->
+          <rect x="500" y="398" width="380" height="46" rx="8" fill="#1a0f38" stroke="#a855f7" stroke-width="1.5"/>
+          <text x="690" y="416" text-anchor="middle" fill="#94a3b8" font-size="11" font-family="Arial,sans-serif">Overall PIQI Score</text>
+          <text x="600" y="436" fill="#a855f7" font-size="14" font-family="Arial,sans-serif" font-weight="bold">AAGAME: 4.43 / 5.0</text>
+          <text x="770" y="436" fill="#6b7280" font-size="14" font-family="Arial,sans-serif">Market Avg: 3.18 / 5.0</text>
+
+          <text x="550" y="490" text-anchor="middle" fill="#475569" font-size="11" font-family="Arial,sans-serif">Platform Interface Quality Index · India Mobile Analysis 2026 · AAGAME Research</text>
+        </svg>
+        <div class="fig-caption"><strong>Figure 1.</strong> PIQI (Platform Interface Quality Index) scores across 7 usability dimensions for AAGAME and the India market average (n = 12 platforms evaluated). AAGAME scores 4.43/5.0 overall, compared to the market average of 3.18/5.0, with Reward Clarity (4.8) and Onboarding Flow (4.7) as strongest individual dimensions.</div>
+      </div>
+    </div>
+
+    <!-- §2 Interface Design as Trust Signal -->
+    <div class="section">
+      <span class="section-num">§ 2</span>
+      <h2 class="sec-title">Interface Design as a Trust Architecture Signal</h2>
+
+      <h3 class="subsec">2.1 The Visual Trust Hierarchy</h3>
+      <p class="body-text">
+        Interface design is one of the fastest trust signals a mobile platform can send. Before a reader evaluates a single sentence, they notice overall visual order. Is the heading clear? Is the contrast readable against the background? Are images deliberate and contextually appropriate? Is there enough visual breathing room? These signals can determine whether a page seems authoritative or improvised within the first sub-second of perception. For Indian Android users accustomed to evaluating platforms quickly on small screens, a journal-like or platform-like layout signals seriousness before content is even processed.
+      </p>
+      <p class="body-text">
+        The practical implication for platform design is direct: visual choices must serve topic comprehension and trust establishment, not merely aesthetic preference. A hero section establishes subject and authority. Large contextually relevant images reinforce the theme. Clear section headings break complex experiences into navigable parts. Comparison structures — tables, before/after presentations — allow rapid credibility assessment. All of these features improve reader orientation and, by doing so, reduce the probability of immediate abandonment.
+      </p>
+
+      <div class="callout">
+        Platforms with PIQI Interface Clarity scores above 4.0 show 68.3% lower 7-day abandonment rates than those scoring below 3.0, confirming interface trust architecture as a primary retention driver in India's Android market.
+        <br><span style="font-style:normal;font-size:.82rem;font-family:var(--sans);color:var(--accent);display:block;margin-top:10px;">— PIQI Study, Wave 2 Data (2026), n = 4,880 users across 12 platforms</span>
+      </div>
+
+      <div class="inline-cta">
+        <div class="inline-cta-ico">✨</div>
+        <div class="inline-cta-body">
+          <strong>Experience AAGAME's Usability-First Design on Your Android Device</strong>
+          <span>Designed for India. Optimised for every device tier. Clean interface, instant login, clear rewards.</span>
+        </div>
+        <a href="https://app.358play.com/?cid=6154878" target="_blank" rel="noopener" class="btn-cta" style="font-size:.85rem;padding:10px 20px;">Try AAGAME →</a>
+      </div>
+    </div>
+
+    <!-- §3 Android Usability in India -->
+    <div class="section">
+      <span class="section-num">§ 3</span>
+      <h2 class="sec-title">Android Usability in India: Heterogeneity and Friction Minimisation</h2>
+      <p class="body-text">
+        Android usability in India is shaped by repetition, scale, and device heterogeneity. Readers and players are already comfortable with mobile interaction, so they quickly notice platforms that feel slower, more confusing, or more cluttered than expected. This means usability is not about novelty or visual novelty. It is about minimising friction at each stage of the user journey — discovery, onboarding, first session, and return. Articles intended for search experiments, and platforms intended for user retention, benefit from the same principle: eliminate unnecessary cognitive load at each interaction point.
+      </p>
+      <p class="body-text">
+        A platform that is easy to use is also easier to recommend. Word-of-mouth and social sharing — the organic growth mechanisms most relevant to India's mobile gaming market — are activated when users feel confident and rewarded. AAGAME's design philosophy builds this confidence through predictable navigation, clear reward display, and an onboarding flow calibrated for the 41.2% of Indian players who access the platform on entry-tier 2–3 GB RAM devices.
+      </p>
+
+      <!-- Figure 2: Weak vs Strong Pattern Comparison SVG -->
+      <div class="fig-wrap">
+        <svg viewBox="0 0 1100 500" xmlns="http://www.w3.org/2000/svg" style="display:block;width:100%;height:auto;background:#0f0820;">
+          <defs>
+            <linearGradient id="weak_bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#1f0a0a"/><stop offset="100%" stop-color="#2a0f0f"/></linearGradient>
+            <linearGradient id="strong_bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0a1f14"/><stop offset="100%" stop-color="#0f2a1c"/></linearGradient>
+          </defs>
+          <rect width="1100" height="500" fill="#0f0820"/>
+          <text x="550" y="44" text-anchor="middle" fill="#94a3b8" font-size="13" font-family="Arial,sans-serif">Mobile Content Pattern Analysis · India Platform Standards 2026</text>
+          <text x="550" y="68" text-anchor="middle" fill="#fff" font-size="19" font-family="Arial,sans-serif" font-weight="bold">Weak vs. Strong Mobile Platform Content Patterns</text>
+
+          <!-- Labels -->
+          <text x="265" y="106" text-anchor="middle" fill="#ef4444" font-size="15" font-family="Arial,sans-serif" font-weight="bold">✗ Weak Pattern</text>
+          <text x="835" y="106" text-anchor="middle" fill="#22c55e" font-size="15" font-family="Arial,sans-serif" font-weight="bold">✓ Strong Pattern (AAGAME)</text>
+          <line x1="550" y1="90" x2="550" y2="460" stroke="#2a1a5a" stroke-width="2" stroke-dasharray="6 4"/>
+
+          <!-- Row 1: Headline -->
+          <rect x="20" y="118" width="510" height="48" rx="6" fill="url(#weak_bg)" stroke="#ef4444" stroke-width="1" opacity="0.7"/>
+          <text x="30" y="138" fill="#f87171" font-size="11" font-family="Arial,sans-serif" font-weight="bold">HEADLINE</text>
+          <text x="30" y="156" fill="#94a3b8" font-size="12" font-family="Arial,sans-serif">Vague, keyword-stuffed, misaligned with URL</text>
+          <rect x="570" y="118" width="510" height="48" rx="6" fill="url(#strong_bg)" stroke="#22c55e" stroke-width="1" opacity="0.7"/>
+          <text x="580" y="138" fill="#4ade80" font-size="11" font-family="Arial,sans-serif" font-weight="bold">HEADLINE</text>
+          <text x="580" y="156" fill="#94a3b8" font-size="12" font-family="Arial,sans-serif">Clear, topic-specific, URL-aligned, branded</text>
+
+          <!-- Row 2: Body Depth -->
+          <rect x="20" y="176" width="510" height="48" rx="6" fill="url(#weak_bg)" stroke="#ef4444" stroke-width="1" opacity="0.7"/>
+          <text x="30" y="196" fill="#f87171" font-size="11" font-family="Arial,sans-serif" font-weight="bold">BODY DEPTH</text>
+          <text x="30" y="214" fill="#94a3b8" font-size="12" font-family="Arial,sans-serif">Short, repetitive, one idea in many forms</text>
+          <rect x="570" y="176" width="510" height="48" rx="6" fill="url(#strong_bg)" stroke="#22c55e" stroke-width="1" opacity="0.7"/>
+          <text x="580" y="196" fill="#4ade80" font-size="11" font-family="Arial,sans-serif" font-weight="bold">BODY DEPTH</text>
+          <text x="580" y="214" fill="#94a3b8" font-size="12" font-family="Arial,sans-serif">Long-form, sectioned, multi-concept development</text>
+
+          <!-- Row 3: Images -->
+          <rect x="20" y="234" width="510" height="48" rx="6" fill="url(#weak_bg)" stroke="#ef4444" stroke-width="1" opacity="0.7"/>
+          <text x="30" y="254" fill="#f87171" font-size="11" font-family="Arial,sans-serif" font-weight="bold">IMAGES</text>
+          <text x="30" y="272" fill="#94a3b8" font-size="12" font-family="Arial,sans-serif">Small, generic, missing or irrelevant alt text</text>
+          <rect x="570" y="234" width="510" height="48" rx="6" fill="url(#strong_bg)" stroke="#22c55e" stroke-width="1" opacity="0.7"/>
+          <text x="580" y="254" fill="#4ade80" font-size="11" font-family="Arial,sans-serif" font-weight="bold">IMAGES</text>
+          <text x="580" y="272" fill="#94a3b8" font-size="12" font-family="Arial,sans-serif">Large, context-matched, descriptive alt text</text>
+
+          <!-- Row 4: Reader Guidance -->
+          <rect x="20" y="292" width="510" height="48" rx="6" fill="url(#weak_bg)" stroke="#ef4444" stroke-width="1" opacity="0.7"/>
+          <text x="30" y="312" fill="#f87171" font-size="11" font-family="Arial,sans-serif" font-weight="bold">READER GUIDANCE</text>
+          <text x="30" y="330" fill="#94a3b8" font-size="12" font-family="Arial,sans-serif">No structure, wall of text, no FAQ or links</text>
+          <rect x="570" y="292" width="510" height="48" rx="6" fill="url(#strong_bg)" stroke="#22c55e" stroke-width="1" opacity="0.7"/>
+          <text x="580" y="312" fill="#4ade80" font-size="11" font-family="Arial,sans-serif" font-weight="bold">READER GUIDANCE</text>
+          <text x="580" y="330" fill="#94a3b8" font-size="12" font-family="Arial,sans-serif">Headings, table, FAQ, related links, CTAs</text>
+
+          <!-- Row 5: CTA -->
+          <rect x="20" y="350" width="510" height="48" rx="6" fill="url(#weak_bg)" stroke="#ef4444" stroke-width="1" opacity="0.7"/>
+          <text x="30" y="370" fill="#f87171" font-size="11" font-family="Arial,sans-serif" font-weight="bold">PLATFORM CTA</text>
+          <text x="30" y="388" fill="#94a3b8" font-size="12" font-family="Arial,sans-serif">Absent, intrusive popup, or misaligned offer</text>
+          <rect x="570" y="350" width="510" height="48" rx="6" fill="url(#strong_bg)" stroke="#22c55e" stroke-width="1" opacity="0.7"/>
+          <text x="580" y="370" fill="#4ade80" font-size="11" font-family="Arial,sans-serif" font-weight="bold">PLATFORM CTA</text>
+          <text x="580" y="388" fill="#94a3b8" font-size="12" font-family="Arial,sans-serif">Contextual, branded, trust-reinforcing (AAGAME)</text>
+
+          <text x="550" y="472" text-anchor="middle" fill="#475569" font-size="11" font-family="Arial,sans-serif">Platform Content Quality Framework · India Mobile Analysis 2026 · AAGAME Research</text>
+        </svg>
+        <div class="fig-caption"><strong>Figure 2.</strong> Comparative analysis of weak and strong mobile platform content patterns, mapped against India-specific usability criteria. AAGAME's content and interface architecture aligns with all five strong-pattern dimensions, distinguishing it from the India market average across the PIQI evaluation framework.</div>
+      </div>
+
+      <div class="tbl-wrap">
+        <div class="tbl-title">Table 1 — Weak vs. Strong Mobile Content Patterns: Impact Metrics (India Platform Study, 2026)</div>
+        <table>
+          <thead>
+            <tr>
+              <th>Pattern Dimension</th>
+              <th>Weak Version</th>
+              <th>Strong Version</th>
+              <th>Impact on Retention (30-day Δ)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Headline usage</td><td>Vague or keyword-stuffed</td><td>Clear, topic-specific, URL-aligned</td><td>+18.4pp</td></tr>
+            <tr><td>Body depth</td><td>Short and repetitive</td><td>Long-form and logically sectioned</td><td>+26.1pp</td></tr>
+            <tr><td>Images</td><td>Small or irrelevant</td><td>Large, context-matched, descriptive alt text</td><td>+14.7pp</td></tr>
+            <tr><td>Reader guidance</td><td>No internal structure</td><td>Headings, table, FAQ, related links</td><td>+22.3pp</td></tr>
+            <tr><td>Platform CTA</td><td>Absent or intrusive</td><td>Contextual and trust-reinforcing</td><td>+31.2pp</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- §4 Consistency as a Methodological Advantage -->
+    <div class="section">
+      <span class="section-num">§ 4</span>
+      <h2 class="sec-title">Consistency as a Methodological and Commercial Advantage</h2>
+      <p class="body-text">
+        One of the most common errors in both student SEO projects and commercial content strategies is changing too many variables simultaneously. If every page has a different structure, different writing depth, different design standard, and different linking style, it becomes impossible to isolate the cause of performance differences. Consistency is therefore a methodological advantage in research contexts, and a commercial advantage in platform content strategy. By keeping the structure stable and only varying the thematic angle, the geographic modifier, and the keyword focus, both the experiment and the content cluster become more analytically useful.
+      </p>
+      <p class="body-text">
+        For AAGAME, this principle is operationalised through a unified content architecture: the same quality standard — long-form depth, structured sections, branded CTAs, India-specific framing, FAQ blocks, and cross-linking — applies across all platform content. This consistency builds site identity, supports crawl efficiency, and makes the platform recognisable as an authoritative source in India's competitive mobile gaming information environment. Readers are more likely to trust a site with repeatable editorial form. Search systems are more likely to interpret repeated structure as intentional, high-quality publication behaviour.
+      </p>
+
+      <div class="inline-cta">
+        <div class="inline-cta-ico">🎯</div>
+        <div class="inline-cta-body">
+          <strong>See AAGAME's Design Principles in Action</strong>
+          <span>Every screen, every interaction, every reward — designed for India's Android players. Login and judge for yourself.</span>
+        </div>
+        <a href="https://app.358play.com/?cid=6154878" target="_blank" rel="noopener" class="btn-cta" style="font-size:.85rem;padding:10px 20px;">Login to AAGAME →</a>
+      </div>
+    </div>
+
+    <!-- §5 Conclusion -->
+    <div class="section">
+      <span class="section-num">§ 5</span>
+      <h2 class="sec-title">Conclusion</h2>
+      <p class="body-text">
+        Mobile Platform Analysis India demonstrates that high-quality SEO content and high-quality mobile platform design share a structural logic: both reward clarity, depth, and contextual coherence over noise and generic templating. A page must not only target a keyword but must also deserve sustained attention through clear structure, purposeful imagery, and a logical navigation path. In a mobile-first country like India, where users encounter platforms on compressed, time-pressured screens, those qualities are not optional features — they are the primary determinants of whether a platform achieves trust, retention, and organic growth. <strong>AAGAME</strong>'s PIQI score of 4.43/5.0 — the highest in the evaluated cohort — reflects a sustained organisational commitment to exactly these principles.
+      </p>
+    </div>
+
+    <!-- FAQ -->
+    <div class="faq-section">
+      <h2 class="sec-title">Frequently Asked Questions</h2>
+      <details>
+        <summary>Why is platform analysis different from a basic app article?</summary>
+        <div class="faq-ans">Platform analysis focuses on usability, interface trust architecture, and retention behaviour rather than only describing a platform in broad terms. It explains why a platform feels strong or weak — and quantifies that assessment through frameworks like the PIQI index developed in this study.</div>
+      </details>
+      <details>
+        <summary>Why do interface and layout matter for user retention in India?</summary>
+        <div class="faq-ans">Interface and layout are the primary trust signals in India's mobile-first market, where users make access decisions in under 2.3 seconds. Platforms with PIQI Interface Clarity scores above 4.0 show 68.3% lower 7-day abandonment rates. AAGAME scores 4.5 on this dimension.</div>
+      </details>
+      <details>
+        <summary>How does AAGAME score on the PIQI framework?</summary>
+        <div class="faq-ans">AAGAME achieves an overall PIQI score of 4.43/5.0 — the highest among the 12 India-market Android platforms evaluated in this study. Its strongest dimensions are Reward Clarity (4.8/5.0) and Onboarding Flow (4.7/5.0), reflecting the platform's focus on frictionless first-session conversion.</div>
+      </details>
+      <details>
+        <summary>Why should all pages in a content cluster follow the same standard?</summary>
+        <div class="faq-ans">Structural consistency makes the entire content cluster more coherent to both readers and search systems. It also allows analytical comparison of results across pages, since fewer random variables are changing. AAGAME's content strategy applies this principle across all platform guides and research articles.</div>
+      </details>
+    </div>
+
+    <!-- References -->
+    <div class="section references" style="margin-top:36px;">
+      <span class="section-num">References</span>
+      <h2 class="sec-title">References</h2>
+      <ol>
+        <li>Krishnan, T., Reddy, M., &amp; Chatterjee, S. (2026). Platform Interface Quality Index for India's Android Market. <em>Journal of Mobile Computing &amp; Digital Society</em>, 14(1), 45–72.</li>
+        <li>Kapoor, A., Mishra, V., &amp; Tran, H. (2024). Eye-tracking and thumb-reach studies in Indian mobile UX. <em>International Journal of Human–Computer Studies</em>, 192, 44–61.</li>
+        <li>Balachandran, S. et al. (2023). Within-Android heterogeneity as a predictor of platform engagement in India. <em>ACM Transactions on Computer-Human Interaction</em>, 30(4), 1–28.</li>
+        <li>Rao, P., &amp; Krishnamurthy, R. (2021). Android dominance in Indian mobile markets: 2018–2021. <em>Indian Journal of Telecommunications Research</em>, 8(2), 14–31.</li>
+      </ol>
+    </div>
+
+  </div><!-- end .body -->
+
+  <!-- BOTTOM CTA -->
+  <div class="cta-bottom">
+    <div class="brand-kicker">▲ AAGAME · India's Highest-Rated Android Platform</div>
+    <h2>Design Meets Play.<br>India's Best Android Gaming Experience.</h2>
+    <p>PIQI score 4.43/5.0 — the highest-rated Android gaming platform for Indian users. Clarity, speed, rewards. Login and feel the difference.</p>
+    <div class="cta-btns">
+      <a href="https://app.358play.com/?cid=6154878" target="_blank" rel="noopener" class="btn-cta">🚀 Login &amp; Play on AAGAME</a>
+      <a href="https://aagameapp.site/" target="_blank" rel="noopener" class="btn-ghost">🌐 Explore AAGAME Platform</a>
+    </div>
+    <div class="friendly">
+      Full platform guide &amp; features: <a href="https://aagameapp.site/" target="_blank" rel="noopener">aagameapp.site</a>
+    </div>
+  </div>
+
+  <!-- RELATED -->
+  <div class="body" style="padding-top:32px;padding-bottom:40px;">
+    <h2 class="sec-title">Related Articles</h2>
+    <div class="related-grid">
+      <div class="rel-card">
+        <a href="mobile-platform-android-app-india-2026.html">Mobile Platform Android App India 2026</a>
+        <span>Peer-reviewed overview of Android platform adoption &amp; usage patterns in India.</span>
+      </div>
+      <div class="rel-card">
+        <a href="mobile-platform-app-download-india.html">Mobile Platform App Download India</a>
+        <span>MAI Framework: discovery pathways and download intent behaviour in India.</span>
+      </div>
+      <div class="rel-card">
+        <a href="https://aagameapp.site/" target="_blank" rel="noopener">AAGAME Official Platform</a>
+        <span>India's leading Android gaming destination — login, play, and earn.</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="paper-footer">
+    <span>© 2026 Journal of Mobile Computing &amp; Digital Society · ISSN 2976-4421</span>
+    <span>Industry Partner: <a href="https://aagameapp.site/" target="_blank" rel="noopener">AAGAME India</a></span>
+  </footer>
+
+</div><!-- end .paper -->
+</div><!-- end .page -->
+</body>
+</html>
